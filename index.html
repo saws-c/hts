@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$100,000 Daily Giveaway</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>$100,000 Daily Giveaway</h1>
+    </header>
+
+    <main>
+        <section id="register-section">
+            <h2>Be One of the 20 Fastest Winners!</h2>
+            <p>Hurry! Only the fastest 20 participants can win $100,000 every day. Register now before time runs out!</p>
+            <form id="registerForm">
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Register Now!</button>
+            </form>
+            <p id="warning-message">⚠️ Limited slots available. Don't miss out!</p>
+            <div id="countdown">
+                <p>Time left to register:</p>
+                <span id="timer">00:00:00</span>
+            </div>
+            <p id="success-message"></p>
+        </section>
+
+        <section id="testimonials-section">
+            <h2>What Previous Winners Say</h2>
+            <ul id="testimonials-list">
+                <!-- JS will insert testimonials here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 $100,000 Daily Giveaway. The first 20 participants win big daily. Register now to be the next winner!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
